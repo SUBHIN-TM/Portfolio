@@ -272,15 +272,6 @@
 
     $(window).on('load', function () {
 
-        // ## Preloader
-        function handlePreloader() {
-            if ($('.preloader').length) {
-                $('.preloader').delay(200).fadeOut(500);
-            }
-        }
-        handlePreloader();
-        
-        
         // ## Project Filtering
         if ($('.project-masonry-active').length) {
             $(this).imagesLoaded(function () {

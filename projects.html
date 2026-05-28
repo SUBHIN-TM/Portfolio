@@ -28,7 +28,17 @@
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
+    <!-- Responsive overrides -->
+    <style>
+        html, body { overflow-x: hidden; }
+        .project-item.style-two .project-image img { width: 100%; height: auto; }
+        @media only screen and (max-width: 575px) {
+            .page-title { font-size: 36px; }
+            .project-item.style-two .project-content h3 { font-size: 20px; }
+        }
+    </style>
+
 </head>
 <body id="top" class="home-one">
     <div class="page-wrapper">
